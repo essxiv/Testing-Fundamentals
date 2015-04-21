@@ -5,8 +5,10 @@ require 'timer'
 # into something you see on a stopwatch, i.e. 00:00:00 or 00:10:22
 
 class TestTimer < MiniTest::Test
+  
   # before each test create a new instance of the class Timer
   # and store it into the instance variable named @timer
+
   def setup
     @timer = Timer.new
   end
